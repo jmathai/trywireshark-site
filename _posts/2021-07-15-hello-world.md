@@ -1,4 +1,5 @@
 ---
+permalink: /post/hello-world
 layout: post
 title: Hello World
 categories: [content, demo]

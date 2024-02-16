@@ -1,28 +1,30 @@
----
-layout: default
----
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-
-    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-    <div class="entry">
-      {% if post.content contains '<!--more-->' %}
-
-      {{ post.excerpt }}
-
-      {% else %}
-
-      {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
-
-      {% endif %}
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <title>Wireshark</title>
+    <style type="text/css">
+      #container {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 8em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      #patent{
+        font-size: .2em;
+        padding-top: 7em;
+        position:absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      Wireshark
+      <div id="patent">patent pending &middot; <a href="/posts">learn more</a></div>
     </div>
+  </body>
+</html>
 
-    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more&nbsp;&#183;{% include read-time.html content=post.content %}</a>
-  </article>
-  {% endfor %}
-
-  {% include pagination.html %}
-</div>

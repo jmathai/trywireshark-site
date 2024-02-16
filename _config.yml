@@ -6,13 +6,13 @@
 lang: "en"
 
 # Name of your site (displayed in the header)
-title: Forever Jekyll
+title: Wireshark
 
 # Short bio or description (displayed in the header)
-description: A simple, elegant and full featured Jekyll theme
+#description: A simple, elegant and full featured Jekyll theme
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /assets/image/avatar.png
+#avatar: /assets/image/avatar.png
 
 #
 # Flags below are optional
@@ -20,7 +20,7 @@ avatar: /assets/image/avatar.png
 
 # Your website URL (e.g. https://forever-jekyll.github.io or https://forever-jekyll.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://forever-jekyll.github.io
+url: https://trywireshark.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -30,14 +30,15 @@ baseurl: ""
 
 # Navigation menu
 navigation_links:
-  - title: Blog
+  - title: Home
     url: /
+# - title: Posts
+#   url: /posts
+# - title: About
+#   url: /about
 
-  - title: About
-    url: /about
-
-  - title: Search
-    url: /search
+# - title: Search
+#   url: /search
 
 # Footer icons
 footer_links:
@@ -80,7 +81,7 @@ kramdown:
 
 # Pagination
 paginate: 5
-paginate_path: "/page/:num/"
+paginate_path: "/posts/:num/"
 
 # Set the Sass partials directory, as we're using @imports
 sass:
