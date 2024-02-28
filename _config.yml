@@ -32,8 +32,8 @@ baseurl: ""
 navigation_links:
   - title: Home
     url: /
-# - title: Posts
-#   url: /posts
+  - title: Posts
+    url: /posts
 # - title: About
 #   url: /about
 
