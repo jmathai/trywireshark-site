@@ -2,6 +2,7 @@
 permalink: /post/how-wireshark-started
 layout: post
 title: How Wireshark Started
+social_image: /assets/image/custom/project0-finished-medium.jpeg
 ---
 
 Every so often, a simple problem encountered in our daily lives sparks an idea that has the potential to transform the mundane into the extraordinary. This is the story of such an idea, born out of frustration and nurtured through persistence and innovation. It all began with the seemingly straightforward task of mounting a television on a wall above a fireplace—a task that soon unveiled a challenging predicament that would lead to a groundbreaking solution.
@@ -52,4 +53,4 @@ The success of this project led to the birth of Wireshark; aimed at revolutioniz
 
 This journey from a personal challenge to a potential industry game-changer serves as a reminder that sometimes, the best ideas come from the most unexpected places. It underscores the value of questioning the status quo, exploring uncharted territories, and believing in the viability of your ideas, no matter how unconventional they may seem.
 
-Stay tuned as we embark on this exciting venture, ready to redefine the standards of home setup and cable management. Join us in embracing the simplicity and efficiency of this innovative solution, born out of necessity and refined through persistence and creativity. The journey has just begun, and I hope you join along for the ride..
+Stay tuned as we embark on this exciting venture, ready to redefine the standards of home setup and cable management. Join us in embracing the simplicity and efficiency of this innovative solution, born out of necessity and refined through persistence and creativity. The journey has just begun, and I hope you join along for the ride.

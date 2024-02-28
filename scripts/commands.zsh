@@ -4,7 +4,8 @@
 #
 
 export TW_PATH=${0:A:h:h}
-export TW_IMAGE_PATH="${TW_PATH}/assets/image/custom"
+export TW_IMAGE_PATH_RELATIVE="/assets/image/custom"
+export TW_IMAGE_PATH="${TW_PATH}${TW_IMAGE_PATH_RELATIVE}"
 tw_resize() {
   file=$1
   ext=$file:t:e
@@ -16,7 +17,7 @@ tw_resize() {
     sizes=('thumbnail' 'medium' 'large' 'extralarge')
     for s in $sizes; do
       image_name="${name:l}-$s"
-      echo "Creating ${image_name}.${ext}"
+      echo "Creating ${TW_IMAGE_PATH_RELATIVE}${image_name}.${ext}"
       case $s in
         thumbnail)
           dimensions='256x256';;
