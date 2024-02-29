@@ -11,7 +11,7 @@ Why join the waitlist?
 
 * Receive exclusive updates as we make progress with our prototype.
 * Have the opportunity to test prototypes before they're made available for sale.
-* Be among the first to be albe to purchase Wireshark once it's ready for prime time.
+* Be among the first to be able to purchase Wireshark once it's ready for prime time.
 * Get a glimpse into the process of bring a product like this to market. It's fun :)
 
 Ready? Enter your email below.
