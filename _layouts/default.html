@@ -14,7 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css"/>
+    {% assign cacheBust = site.time | date:'?v=%s' %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css{{ cacheBust }}"/>
     <!--<link rel="apple-touch-icon" sizes="57x57" href="/assets/image/favicon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/assets/image/favicon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/assets/image/favicon-72x72.png">
