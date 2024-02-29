@@ -34,6 +34,8 @@ navigation_links:
     url: /
   - title: Posts
     url: /posts
+  - title: Join Waitlist
+    url: /join-waitlist
 # - title: About
 #   url: /about
 
