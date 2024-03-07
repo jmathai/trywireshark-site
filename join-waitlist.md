@@ -9,10 +9,11 @@ We've already completed projects using the Wireshark method. We're now busy buil
 
 Why join the waitlist?
 
-* Receive exclusive updates as we make progress with our prototype.
-* Have the opportunity to test prototypes before they're made available for sale.
+* Get 25% off of Wireshark for expressing interest early.
 * Be among the first to be able to purchase Wireshark once it's ready for prime time.
-* Get a glimpse into the process of bring a product like this to market. It's fun :)
+* Have the opportunity to test prototypes before they're made available for sale.
+* Receive exclusive updates as we make progress with our prototype.
+* Get a glimpse into the process of bringing a product like this to market. It's fun :)
 
 Ready? Enter your email below.
 
