@@ -16,10 +16,10 @@
 
     {% assign cacheBust = site.time | date:'?v=%s' %}
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css{{ cacheBust }}"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/image/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/image/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/image/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/image/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/image/brand/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/image/brand/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/image/brand/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/image/brand/favicon/site.webmanifest">
     <meta name="theme-color" content="#ffffff">
     <!--<link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml"/>-->
     <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous" media="print" onload="this.media='all'"/>-->
@@ -36,7 +36,7 @@
           <!--<a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar | absolute_url }}" width="70" height="70" /></a>-->
 
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+            <h1 class="site-name"><img src="/assets/image/brand/logo-128.png" class="logo" /><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
             <p class="site-description">Patent Pending</p>
             <!--<p class="site-description">{{ site.description }}</p>-->
           </div>

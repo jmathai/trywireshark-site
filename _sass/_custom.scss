@@ -2,6 +2,14 @@ header {
   .site-description {
     font-size: 12px !important;
   }
+  .logo {
+    clip-path: circle();
+    width: 30px;
+    height:30px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+  }
 }
 
 .post {

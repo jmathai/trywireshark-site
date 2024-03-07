@@ -3,10 +3,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/image/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/image/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/image/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/image/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/image/brand/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/image/brand/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/image/brand/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/image/brand/favicon/site.webmanifest">
     <title>Wireshark</title>
     <style type="text/css">
       #container {
@@ -17,6 +17,13 @@
         align-items: center;
         height: 100%;
       }
+      #container .logo {
+        clip-path: circle();
+        width: 110px;
+        height:110px;
+        margin-top: 7px;
+        margin-right: 15px;
+      }
       #patent{
         font-size: .2em;
         padding-top: 7em;
@@ -26,7 +33,7 @@
   </head>
   <body>
     <div id="container">
-      Wireshark
+      <img src="/assets/image/brand/logo-512.png" class="logo" />Wireshark
       <div id="patent">patent pending &middot; <a href="/posts">learn more</a></div>
     </div>
   </body>
