@@ -2,7 +2,7 @@
 permalink: /post/diy-wiring-projects-with-confidence
 layout: post
 title: Embracing DIY Wiring Projects with Confidence
-social_image: /assets/image/custom/conduit-initial-prototype-medium.jpg
+social_image: /assets/blog/image/custom/conduit-initial-prototype-medium.jpg
 ---
 
 In the realm of home renovation, wiring projects have always been viewed with a mix of anticipation and apprehension. The idea of weaving wires through walls, drilling into unknown territories, and ensuring everything is up to code can be intimidating, even for the most seasoned DIY enthusiast. However, the advent of Wireshark is changing the landscape, making DIY wiring projects not just feasible but also empowering for homeowners.
@@ -19,7 +19,7 @@ For many, the risk of making costly mistakes or the fear of compromising their h
 
 Wireshark introduces a groundbreaking solution that simplifies the entire process of running wiring wire in home renovation projects. This innovative system allows homeowners to run wire inside the drywall itself, bypassing the need to navigate the complexities of traditional wiring methods. With Wireshark, the vision of DIY projects ringbecomes not only achievable but also less daunting.
 
-<a href="/assets/image/custom//assets/image/custom/conduit-initial-prototype-extralarge.jpg" class="glightbox"><img src="/assets/image/custom/conduit-initial-prototype-medium.jpg"></a>
+<a href="/assets/blog/image/custom//assets/blog/image/custom/conduit-initial-prototype-extralarge.jpg" class="glightbox"><img src="/assets/blog/image/custom/conduit-initial-prototype-medium.jpg"></a>
 
 ## The DIY Advantage
 

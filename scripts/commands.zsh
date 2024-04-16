@@ -4,7 +4,7 @@
 #
 
 export TW_PATH=${0:A:h:h}
-export TW_IMAGE_PATH_RELATIVE="/assets/image/custom"
+export TW_IMAGE_PATH_RELATIVE="/assets/blog/image/custom"
 export TW_IMAGE_PATH="${TW_PATH}${TW_IMAGE_PATH_RELATIVE}"
 tw_resize() {
   file=$1

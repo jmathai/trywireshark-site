@@ -37,6 +37,6 @@ Building a product like Wireshark requires lots and lots of trial and error. Lik
 
 The result?
 
-<a href="/assets/image/custom/project0-finished-extralarge.jpeg" class="glightbox"><img src="/assets/image/custom/project0-finished-medium.jpeg"></a>
+<a href="/assets/blog/image/custom/project0-finished-extralarge.jpeg" class="glightbox"><img src="/assets/blog/image/custom/project0-finished-medium.jpeg"></a>
 
 Join the Wireshark journey!
