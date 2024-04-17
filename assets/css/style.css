@@ -1617,10 +1617,6 @@ nav.fixed-top .nav-item .nav-link:before {
 	border-top: 1px solid #ddd;
 	display: inline-block;
 	font-size: 14px;
-	font-weight: 600;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	color: #fff;
 }
 
 .footer-logo img {
