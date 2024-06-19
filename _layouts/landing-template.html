@@ -1,0 +1,83 @@
+---
+layout: landing
+---
+{% case page.name %}
+  {% when 'landing-1.md' %}
+    {% assign title = 'Conceal Wires Easily, No Drywall Required with Wireshark!' %}
+  {% when 'landing-2.md' %}
+    {% assign title = 'Get hidden wires with no drywall work. Wireshark makes it easy!' %}
+  {% when 'landing-3.md' %}
+    {% assign title = 'Hide Wires Without Drywall Work – Use Wireshark!' %}
+
+{% endcase %}
+
+
+      <!-- Features Area Start -->
+      <section class="pelum-features-area" data-scroll-index="1">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="site-heading">
+                    <h2>{{ title }}</h2>
+                     <h4>3 Simple Steps</h4>
+                     <!--<span class="heading_overlay"></span>-->
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-4 col-md-6">
+                  <div class="single-feature">
+                     <div class="feature-icon">
+                       <i class="fa-solid fa-1"></i>
+                     </div>
+                     <div class="feature-text">
+                        <h3>Create a Channel</h3>
+                        <p>Easily remove baseboard trim and use the Wireshark channel tool to create a channel on the back side.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="single-feature">
+                     <div class="feature-icon">
+                        <i class="fa-solid fa-2"></i>
+                     </div>
+                     <div class="feature-text">
+                        <h3>Run Wire in Conduit</h3>
+                        <p>Place the Wireshark channel conduit firmly inside of the channel and run the wire through it.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="single-feature">
+                     <div class="feature-icon">
+                        <i class="fa-solid fa-3"></i>
+                     </div>
+                     <div class="feature-text">
+                        <h3>Reattach Trim</h3>
+                        <p>Reattach the trim to the wall and make any touchups with paint to finish your project with professional results.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+              <style>
+                .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited,
+                .btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
+                    border-color: #4777f4 !important;
+                    color: #4777f4 !important;
+                    background-color: #fff !important;
+                }
+                .btn-primary:hover, .btn-outline-primary:hover {
+                    border-color: #4777f4 !important;
+                    color: #fff !important;
+                    background-color: #4777f4 !important;
+
+                }
+              </style>
+              <div class="col-lg-12 text-center" style="margin-top: 30px;">
+                <a href="/landing-learn" class="btn btn-outline-primary">Click here to Learn More</a>
+              </div>
+            </div>
+         </div>
+      </section>
+      <!-- Features Area End -->
