@@ -352,6 +352,19 @@
   .shapes-container {
     display: none;
   }
+  header video {
+    object-fit:cover;
+    height: 575px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .pelum-welcome-area {
+    background: none;
+    z-index: 100;
+    padding-top: 0px;
+    height: 550px;
+  }
 	.welcome-text {
 		padding-top: 35%;
 	}
@@ -362,6 +375,9 @@
 		font-family: inherit;
 		margin-bottom: 20px;
 	}
+	.welcome-text h2 span {
+    display: block;
+  }
 	.welcome-text p {
 		font-size: 16px;
 		width: 100%;
@@ -408,9 +424,9 @@
 	.navbar-nav {
 		text-align: center
 	}
-	.pelum-welcome-area {
+	/*.pelum-welcome-area {
 		height: auto
-	}
+	}*/
 	.site-heading {
 		width: 100%;
 	  margin-bottom: 0px;
@@ -490,6 +506,12 @@
 		background-image: none;
     margin-top: 0;
 	}
+	.pelum-features-area .gallery-row {
+    margin-bottom: 10px;
+  }
+	.pelum-features-area .gallery-item {
+    margin-bottom: 10px;
+  }
 	.choose-heading {
 		text-align: center;
 	}

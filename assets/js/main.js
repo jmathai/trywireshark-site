@@ -159,7 +159,7 @@ JS INDEX
 		*/
 
 
-		$('.pelum-btn').on('mouseenter', function (e) {
+		/*$('.pelum-btn').on('mouseenter', function (e) {
 			var parentOffset = $(this).offset(),
 				relX = e.pageX - parentOffset.left,
 				relY = e.pageY - parentOffset.top;
@@ -175,12 +175,12 @@ JS INDEX
 				top: relY,
 				left: relX
 			})
-		});
+		});*/
 
 	});
 
 
-	new WOW().init();
+	//new WOW().init();
 
 	/* 
     =================================================================

@@ -1,3 +1,10 @@
+---
+cnt2: "foobar"
+cnt:
+  - 1
+  - 2
+---
+<!-- cnt: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36] -->
 <!DOCTYPE html>
 <html lang="en-US">
    <head>
@@ -15,20 +22,18 @@
       <!--Font Awesome css-->
       <link rel="stylesheet" href="assets/css/font-awesome.min.css">
       <!--Flaticon css-->
-      <link rel="stylesheet" href="assets/flaticon/flaticon.css">
+      <!--<link rel="stylesheet" href="assets/flaticon/flaticon.css">-->
       <!--Magnific css-->
-      <link rel="stylesheet" href="assets/css/magnific-popup.css">
+      <!--<link rel="stylesheet" href="assets/css/magnific-popup.css">-->
       <!--Owl-Carousel css-->
-      <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-      <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+      <!--<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">-->
       <!--Animate css-->
-      <link rel="stylesheet" href="assets/css/animate.min.css">
+      <!--<link rel="stylesheet" href="assets/css/animate.min.css">-->
       <!--Site Main Style css-->
-      <link rel="stylesheet" href="assets/css/style.css?1">
+      <link rel="stylesheet" href="assets/css/style.css?{{ site.time | date: '%Y%m%d' }}">
       <!--Responsive css-->
-      <link rel="stylesheet" href="assets/css/responsive.css?1">
-      <script src="https://kit.fontawesome.com/9ab9d12273.js" crossorigin="anonymous"></script>
-      <script defer async data-host="trywireshark.com" src="https://liteanalytics.com/lite.js"></script>
+      <link rel="stylesheet" href="assets/css/responsive.css?{{ site.time | date: '%Y%m%d' }}">
    </head>
    <body>
        
@@ -52,10 +57,10 @@
                      <a href="#" class="nav-link active" data-scroll-nav="0">Home</a>
                   </li>
                   <li class="nav-item">
-                     <a href="#" class="nav-link" data-scroll-nav="1">Benefits</a>
+                     <a href="#" class="nav-link" data-scroll-nav="1">Why Wireshark?</a>
                   </li>
                   <li class="nav-item">
-                     <a href="#" class="nav-link" data-scroll-nav="2">About</a>
+                     <a href="#" class="nav-link" data-scroll-nav="2">How Does It work?</a>
                   </li>
                   <li class="nav-item">
                      <a href="#" class="nav-link" data-scroll-nav="3">Faq</a>
@@ -68,35 +73,56 @@
          </div>
       </nav>
       <!--Navbar End-->
-       
-       
-      <!-- Welcome Area Start -->
-      <section class="pelum-welcome-area fix" data-scroll-index="0">
-         <!-- Shape Start -->
-         <div class="shapes-container">
-            <div class="bg-shape"></div>
-         </div>
-         <!-- Shape End -->
+      
+      <header>
+
+        <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+
+        <!-- The HTML5 video element that will create the background video on the header -->
+        <div class="video-background">
+          <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <!--<source src="https://cdn.coverr.co/videos/coverr-cinematic-snowy-mountains-7615/720p.mp4" type="video/mp4">-->
+            <source src="assets/img/welcome-video-2-cropped.m4v" type="video/mp4">
+          </video>
+        </div>
+
+        <!-- The header content -->
+        <section class="pelum-welcome-area fix" data-scroll-index="0">
+           <!-- Shape Start -->
+           <!--<div class="shapes-container">
+              <div class="bg-shape"></div>
+           </div>-->
+           <!-- Shape End -->
+           <div class="container">
+              <div class="row align-items-center">
+                 <div class="col-12">
+                    <div class="welcome-text">
+                       <h2><span>Run wires.</span> <span>Skip drywall repair.</span></h2>
+                       <a href="#" class="custom-btn">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </section>
+        <!--<div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <h1 class="display-3">Video Header</h1>
+              <p class="lead mb-0">Using HTML5 Video and Bootstrap</p>
+            </div>
+          </div>
+        </div>-->
+      </header>
+
+      <section class="pelum-sub-header-area">
          <div class="container">
-            <div class="row align-items-center">
-               <div class="col-12 col-md-7">
-                  <div class="welcome-text">
-                     <h2>Run wire 10 times easier than before</h2>
-                     <p>The Wireshark system simplifies wiring projects enabling you to run wires without having to go behind the drywall.</p>
-                     <!--<a href="#" class="pelum-btn">Buy Products<span></span></a>-->
-                  </div>
-               </div>
-               <div class="col-12 col-md-5">
-                  <div class="welcome-image">
-                    <!--<img src="assets/blog/image/custom/conduit-initial-prototype-medium.jpg" alt="welcome" class="animation-jump-x" />-->
-                    <iframe class="youtube-video" src="https://www.youtube.com/embed/lH_8k-v4dnw?si=VdjcIw4WvZDKLCbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  </div>
+            <div class="row">
+               <div class="col-lg-6 sub-header">
+                 Wirshark is a patent pending wiring system which lets experts and novices complete projects faster and at a lower cost with professional results every time. It's designed to be usable by anyone as a modern alternative to traditional wiring methods. Wireshark can be used for high and low voltage wires and ensures jobs are up to electrical code.
                </div>
             </div>
          </div>
       </section>
-      <!-- Welcome Area End -->
-       
        
       <!-- Features Area Start -->
       <section class="pelum-features-area" data-scroll-index="1">
@@ -104,8 +130,7 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="site-heading">
-                     <h4>Why Wireshark?</h4>
-                     <h2>Benefits</h2>
+                     <h2>Why Wireshark?</h2>
                      <!--<span class="heading_overlay"></span>-->
                   </div>
                </div>
@@ -125,7 +150,7 @@
                <div class="col-lg-3 col-md-6">
                   <div class="single-feature">
                      <div class="feature-icon">
-                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-shield"></i>
                      </div>
                      <div class="feature-text">
                         <h3>Safe and up to code</h3>
@@ -136,7 +161,7 @@
                <div class="col-lg-3 col-md-6">
                   <div class="single-feature">
                      <div class="feature-icon">
-                        <i class="fa fa-dollar"></i>
+                        <i class="fa fa-hand-holding-dollar"></i>
                      </div>
                      <div class="feature-text">
                         <h3>Lower cost and risk</h3>
@@ -151,7 +176,7 @@
                      </div>
                      <div class="feature-text">
                         <h3>Professional results</h3>
-                        <p>The Wireshark system simplifies patching with a custom-fit conduit that protects wires and fills the channel, requiring minimal effort for finish work.</p>
+                        <p>The Wireshark system avoids drywall patching with a custom-fit conduit that protects wires and fills the channel, requiring minimal effort for finish work.</p>
                      </div>
                   </div>
                </div>
@@ -159,10 +184,64 @@
          </div>
       </section>
       <!-- Features Area End -->
+
+      <!-- Features Area Start -->
+      <section class="pelum-features-area steps" data-scroll-index="2">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="site-heading">
+                     <h2>How does it work?</h2>
+                     <!--<span class="heading_overlay"></span>-->
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 feature-text">
+                  <h3>1. Create a channel</h3>
+                  <p>Attach the Wireshark baseplate to your router to easily create precise channels on the back of your baseboard.</p>
+                  <div class="row gallery-row">
+                    <div class="col-lg-6 gallery-item">
+                      <img src="/assets/img/steps/steps_0001.png" class="img-thumbnail">
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="/assets/img/steps/steps_0002.png" class="img-thumbnail">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 feature-text">
+                  <h3>2. Install wire &amp; conduit</h3>
+                  <p>Place the Wireshark conduit and your wire into the channel and reattach your baseboard.</p>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <img src="/assets/img/steps/steps_0003.png" class="img-thumbnail">
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="/assets/img/steps/steps_0004.png" class="img-thumbnail">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--<div class="row">
+                <div class="col-lg-12">
+                 {% assign cnt = "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34" | split: ',' %}
+                 {% assign cnt_exploded = "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32" | split: ',' %}
+                  <div id="wall-rotation-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="250" data-pause="false">
+                    <div class="carousel-inner">
+                      {% for item in cnt_exploded %}
+                        <div class="carousel-item {% if item == "0" %}active{% endif %}">
+                          <img class="d-block w-100" src="/assets/img/wall-rotation-exploded/wall-rotation_{{ item | prepend: "000" | slice: -4,4 }}.png">
+                        </div>
+                      {% endfor %}
+                  </div>
+                </div>
+                </div>-->
+         </div>
+      </section>
        
        
       <!-- Video Area Start -->
-      <section class="pelum-video-area" data-scroll-index="2">
+      <!--<section class="pelum-video-area" data-scroll-index="2">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
@@ -172,14 +251,12 @@
                         <i class="flaticon-play"></i>
                         </a>
                         <h2>Want to learn more? Watch this video.</h2>
-                        <!--<span class="heading_overlay"></span>-->
-                        <!--<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>-->
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </section>
+      </section>-->
       <!-- Video Area End -->
        
        
@@ -189,8 +266,7 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="faq-left">
-                     <div class="faq-heading">
-                        <h4>FAQs</h4>
+                     <div class="site-heading">
                         <h2>Frequently Asked Questions</h2>
                         <!--<span class="heading_overlay"></span>-->
                      </div>
@@ -327,6 +403,7 @@
                      </div>
                      <div class="footer-social">
                         <ul>
+                           <li class=""><a href="https://www.instagram.com/trywireshark/"><i class="fa fa-instagram"></i></a></li>
                            <li class=""><a href="https://twitter.com/trywireshark"><i class="fa fa-twitter"></i></a></li>
                            <li class=""><a href="https://www.youtube.com/@TryWireshark"><i class="fa fa-youtube"></i></a></li>
                         </ul>
@@ -342,21 +419,23 @@
       <!--Jquery js-->
       <script src="assets/js/jquery.min.js"></script>
       <!-- Popper JS -->
-      <script src="assets/js/popper.min.js"></script>
+      <!--<script src="assets/js/popper.min.js"></script>-->
       <!--Bootstrap js-->
       <script src="assets/js/bootstrap.min.js"></script>
       <!--ScrollIt js-->
       <script src="assets/js/scrollIt.min.js"></script>
       <!--Owl-Carousel js-->
-      <script src="assets/js/owl.carousel.min.js"></script>
+      <!--<script src="assets/js/owl.carousel.min.js"></script>-->
       <!--Magnific js-->
-      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+      <!--<script src="assets/js/jquery.magnific-popup.min.js"></script>-->
       <!--Initial js-->
       <script src="assets/js/init.js"></script>
       <!--Wow js-->
       <!--<script src="assets/js/wow.min.js"></script>-->
       <!--Main js-->
       <script src="assets/js/main.js"></script>
+      <script src="https://kit.fontawesome.com/9ab9d12273.js" crossorigin="anonymous"></script>
+      <script defer async data-host="trywireshark.com" src="https://liteanalytics.com/lite.js"></script>
    </body>
 </html>
 
