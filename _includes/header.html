@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="Wireshark is a new and elegant alternative to traditional methods of running wires behind the wall.">
+      <meta name="author" content="Themescare">
+      <base href="/">
+      <!-- Title -->
+      <title>Wireshark</title>
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/blog/image/brand/favicon/favicon-32x32.png">
+      <!--Bootstrap css-->
+      <link rel="stylesheet" href="assets/css/bootstrap.css">
+      <!--Font Awesome css-->
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <!--Flaticon css-->
+      <!--<link rel="stylesheet" href="assets/flaticon/flaticon.css">-->
+      <!--Magnific css-->
+      <!--<link rel="stylesheet" href="assets/css/magnific-popup.css">-->
+      <!--Owl-Carousel css-->
+      <!--<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">-->
+      <!--Animate css-->
+      <!--<link rel="stylesheet" href="assets/css/animate.min.css">-->
+      <!--Site Main Style css-->
+      <link rel="stylesheet" href="assets/css/style.css?{{ site.time | date: '%Y%m%d' }}">
+      <!--Responsive css-->
+      <link rel="stylesheet" href="assets/css/responsive.css?{{ site.time | date: '%Y%m%d' }}">
+   </head>
+   <body>
+       
+       
+      <!--Navbar Start-->
+      <nav class="navbar navbar-expand-lg">
+         <div class="container">
+            <!-- LOGO -->
+            <a class="navbar-brand logo" href="/">
+              <img src="assets/blog/image/brand/logo-128.png" alt="pelum" /> Wireshark
+            </a>
+            <a class="navbar-brand logo HideScroll" href="/">
+              <img src="assets/blog/image/brand/logo-128.png" alt="pelum" /> Wireshark
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+               <ul class="navbar-nav ml-auto">
+                  {% if page.url == '/' %}
+                    <li class="nav-item">
+                       <a href="#" class="nav-link active" data-scroll-nav="0">Home</a>
+                    </li>
+                    <li class="nav-item">
+                       <a href="#" class="nav-link" data-scroll-nav="1">Why Wireshark?</a>
+                    </li>
+                    <li class="nav-item">
+                       <a href="#" class="nav-link" data-scroll-nav="2">How Does It work?</a>
+                    </li>
+                    <li class="nav-item">
+                       <a href="#" class="nav-link" data-scroll-nav="3">Faq</a>
+                    </li>
+                    <li class="nav-item">
+                       <a href="#" class="nav-link" data-scroll-nav="4">Patent Pending</a>
+                    </li>
+                  {% else %}
+                    <!--<li class="nav-item">
+                       <a href="/" class="nav-link" data-scroll-nav="0">Home</a>
+                    </li>-->
+                  {% endif %}
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!--Navbar End-->

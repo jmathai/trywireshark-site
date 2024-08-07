@@ -216,7 +216,8 @@ li {
 
 .pelum-btn, .custom-btn {
   /*rgba(71, 119, 244, 0.22);*/
-	background-color: rgb(71, 119, 244); !important;
+	background-color: rgb(71, 119, 244) !important;
+  border: none;
 	border-radius: 2px;
 	display: inline-block;
 	padding: 10px 35px;
@@ -232,6 +233,11 @@ li {
 	position: relative;
 	height: 45px;
   cursor: pointer !important;
+}
+
+.pelum-btn.disabled, .custom-btn.disabled {
+	background-color: #eee !important;
+  color: #000 !important;
 }
 
 .pelum-btn span, .custom-btn span {
@@ -821,7 +827,7 @@ nav.fixed-top .nav-item .nav-link:before {
 	width: 80px;
 	height: 80px;
 	margin: 0 auto;
-	background-color: rgb(71, 119, 244); !important;
+	background-color: rgb(71, 119, 244) !important;
 	/*background-color: rgb(15, 8, 58);*/
 	line-height: 100px;
 	border-radius: 5px;
@@ -1736,7 +1742,7 @@ header video {
 }
 
 .pelum-welcome-area .welcome-text .custom-btn, .pelum-welcome-area .welcome-text .custom-btn span{
-	background-color: rgb(71, 119, 244); !important;
+	background-color: rgb(71, 119, 244) !important;
   cursor: pointer !important;
 }
 
@@ -1762,3 +1768,12 @@ header video {
 	background-color: rgb(71, 119, 244);
   /*rgba(71, 119, 244, 0.22);*/
 }
+
+.pelum-product-area .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.pelum-product-area .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
