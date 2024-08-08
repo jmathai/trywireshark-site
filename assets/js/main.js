@@ -31,7 +31,7 @@ JS INDEX
 		=================================================================	
 		*/
 
-		$(".product-slider").owlCarousel({
+		/*$(".product-slider").owlCarousel({
 			autoplay: true,
 			loop: true,
 			margin: 20,
@@ -59,7 +59,7 @@ JS INDEX
 					items: 2
 				}
 			}
-		});
+		});*/
 
 
 		/* 
@@ -69,7 +69,7 @@ JS INDEX
 		*/
 
 
-		$(".testimonial-slider").owlCarousel({
+		/*$(".testimonial-slider").owlCarousel({
 			autoplay: true,
 			loop: true,
 			margin: 20,
@@ -97,7 +97,7 @@ JS INDEX
 					items: 3
 				}
 			}
-		});
+		});*/
 
 		/* 
 		=================================================================
@@ -106,7 +106,7 @@ JS INDEX
 		*/
 
 
-		$(".choose-slider").owlCarousel({
+		/*$(".choose-slider").owlCarousel({
 			autoplay: false,
 			loop: true,
 			margin: 0,
@@ -135,7 +135,7 @@ JS INDEX
 					items: 1
 				}
 			}
-		});
+		});*/
 
 		/* 
 		=================================================================
@@ -143,14 +143,14 @@ JS INDEX
 		=================================================================	
 		*/
 
-		$('.popup-youtube').magnificPopup({
+		/*$('.popup-youtube').magnificPopup({
 			disableOn: 700,
 			type: 'iframe',
 			mainClass: 'mfp-fade',
 			removalDelay: 160,
 			preloader: false,
 			fixedContentPos: false
-		});
+		});*/
 
 		/* 
 		=================================================================
@@ -188,9 +188,9 @@ JS INDEX
     =================================================================	
     */
 
-	$(window).on('load', function () {
+	/*$(window).on('load', function () {
 		$('.preloader').addClass('preloader-deactivate');
-	});
+	});*/
 
 }(jQuery));
 

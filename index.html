@@ -149,20 +149,25 @@ layout: default
                   </div>
                 </div>
             </div>
-            <!--<div class="row">
+            <div class="row">
                 <div class="col-lg-12">
                  {% assign cnt = "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34" | split: ',' %}
-                 {% assign cnt_exploded = "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32" | split: ',' %}
-                  <div id="wall-rotation-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="250" data-pause="false">
+                 {% assign cnt_exploded = "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35" | split: ',' | reverse %}
+                  <div id="wall-rotation-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="100" data-pause="false" data-wrap="false">
                     <div class="carousel-inner">
                       {% for item in cnt_exploded %}
-                        <div class="carousel-item {% if item == "0" %}active{% endif %}">
+                        <div class="carousel-item {% if item == "35" %}active{% endif %}">
                           <img class="d-block w-100" src="/assets/img/wall-rotation-exploded/wall-rotation_{{ item | prepend: "000" | slice: -4,4 }}.png">
                         </div>
                       {% endfor %}
+                      <div class="carousel-item">
+                        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="false">
+                          <source src="assets/img/wall-rotation-exploded/wall-rotation_0036.mp4" type="video/mp4">
+                        </video>
+                      </div>
                   </div>
                 </div>
-                </div>-->
+            </div>
          </div>
       </section>
        
