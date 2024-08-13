@@ -10,7 +10,7 @@
                <div class="col-md-12">
                   <div class="footer-box">
                      <div class="footer-logo">
-                        <a class="navbar-brand logo" href="/">
+                        <a class="navbar-brand logo" href="/" data-lta-event="footer-logo">
                           <img src="assets/blog/image/brand/logo-128.png" alt="pelum" /> Wireshark
                         </a>
                      </div>
@@ -18,13 +18,13 @@
                         <p>Copyright &copy; 2024.</p>
                      </div>-->
                      <div class="footer-copyright">
-                       <p>Email <a href="mailto:hello@trywireshark.com">hello@trywireshark.com</a> for partnerships and inquiries.</p>
+                       <p>Email <a href="mailto:hello@trywireshark.com" data-lta-event="footer-email">hello@trywireshark.com</a> for partnerships and inquiries.</p>
                      </div>
                      <div class="footer-social">
                         <ul>
-                           <li class=""><a href="https://www.instagram.com/trywireshark/"><i class="fa fa-instagram"></i></a></li>
-                           <li class=""><a href="https://twitter.com/trywireshark"><i class="fa fa-twitter"></i></a></li>
-                           <li class=""><a href="https://www.youtube.com/@TryWireshark"><i class="fa fa-youtube"></i></a></li>
+                           <li class=""><a href="https://www.instagram.com/trywireshark/" data-lta-event="footer-instagram"><i class="fa fa-instagram"></i></a></li>
+                           <li class=""><a href="https://twitter.com/trywireshark" data-lta-event="footer-twitter"><i class="fa fa-twitter"></i></a></li>
+                           <li class=""><a href="https://www.youtube.com/@TryWireshark" data-lta-event="footer-youtube"><i class="fa fa-youtube"></i></a></li>
                         </ul>
                      </div>
                   </div>
@@ -54,7 +54,7 @@
       <!--<script src="assets/js/main.js"></script>-->
       <script src="https://kit.fontawesome.com/9ab9d12273.js" crossorigin="anonymous"></script>
       {% if site.url == "trywireshark.com" %}
-        <script defer async data-host="trywireshark.com" src="https://liteanalytics.com/lite.js"></script>
+        <script defer async src="https://liteanalytics.com/lite.js" data-host="trywireshark.com" data-events="true"></script>
       {% endif %}
    </body>
 </html>
