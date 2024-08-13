@@ -34,7 +34,6 @@
       </footer>
       <!-- Footer Area End -->
        
-       
       <!--Jquery js-->
       <script src="assets/js/jquery.min.js"></script>
       <!-- Popper JS -->
@@ -54,7 +53,9 @@
       <!--Main js-->
       <!--<script src="assets/js/main.js"></script>-->
       <script src="https://kit.fontawesome.com/9ab9d12273.js" crossorigin="anonymous"></script>
-      <script defer async data-host="trywireshark.com" src="https://liteanalytics.com/lite.js"></script>
+      {% if site.url == "trywireshark.com" %}
+        <script defer async data-host="trywireshark.com" src="https://liteanalytics.com/lite.js"></script>
+      {% endif %}
    </body>
 </html>
 
