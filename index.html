@@ -135,11 +135,9 @@ layout: default
                       <img src="/assets/img/steps/steps_0002.png" class="img-thumbnail">
                     </div>
                   </div>
-                </div>
-                <div class="col-lg-6 feature-text">
-                  <h3>2. Install wire &amp; conduit</h3>
+                  <h3 class="second">2. Install wire &amp; conduit</h3>
                   <p>Place the Wireshark conduit and your wire into the channel and reattach your baseboard.</p>
-                  <div class="row">
+                  <div class="row gallery-row">
                     <div class="col-lg-6">
                       <img src="/assets/img/steps/steps_0003.png" class="img-thumbnail">
                     </div>
@@ -148,24 +146,11 @@ layout: default
                     </div>
                   </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                 {% assign cnt = "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34" | split: ',' %}
-                 {% assign cnt_exploded = "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35" | split: ',' | reverse %}
-                  <div id="wall-rotation-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="100" data-pause="false" data-wrap="false">
-                    <div class="carousel-inner">
-                      {% for item in cnt_exploded %}
-                        <div class="carousel-item {% if item == "35" %}active{% endif %}">
-                          <img class="d-block w-100" src="/assets/img/wall-rotation-exploded/wall-rotation_{{ item | prepend: "000" | slice: -4,4 }}.png">
-                        </div>
-                      {% endfor %}
-                      <div class="carousel-item">
-                        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="false">
-                          <source src="/assets/img/wall-rotation-exploded/wall-rotation_0036.mp4" type="video/mp4">
-                        </video>
-                      </div>
-                  </div>
+                <div class="col-lg-6 feature-demo">
+                  <h3>Watch a video</h3>
+                  <video playsinline="playsinline" controls="controls" data-lta-event="home-demo-video" onloadstart="this.volume=0.25">
+                    <source src="/assets/img/home-demo.mp4" type="video/mp4">
+                  </video>
                 </div>
             </div>
          </div>

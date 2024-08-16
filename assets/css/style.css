@@ -872,7 +872,7 @@ nav.fixed-top .nav-item .nav-link:before {
 	top: -2px;
 }
 
-.feature-text h3 {
+.feature-text h3, .feature-demo h3 {
 	font-weight: 600;
 	color: #000;
 	text-transform: capitalize;
@@ -1736,7 +1736,7 @@ header video {
   text-align: center;
 }
 
-.pelum-welcome-area .welcome-text h2, .site-heading h2, .feature-text h3,  {
+.pelum-welcome-area .welcome-text h2, .site-heading h2, .feature-text h3, .feature-demo h3, {
   font-weight: 500;
   letter-spacing: .01em;
 }
@@ -1753,8 +1753,21 @@ header video {
 .pelum-features-area p {
   padding-bottom: 10px;
 }
+
 .pelum-features-area.steps {
   padding-top:0;
+}
+
+.pelum-features-area .feature-text h3 {
+  padding-top: 100px;
+}
+
+.pelum-features-area .feature-demo h3 {
+  display: none;
+}
+
+.pelum-features-area .feature-demo video {
+  width: 100%;
 }
 
 .pelum-sub-header-area {
