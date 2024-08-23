@@ -1,0 +1,37 @@
+---
+permalink: /notify
+layout: default
+---
+
+<section class="pelum-subscribe-area" data-scroll-index="3">
+   <div class="container">
+     <div class="row">
+        <div class="col-lg-12">
+            <div id="notify-confirmation" class="text-center alert alert-primary d-none" role="alert">
+              Thanks! We've got your email address and will let you know once Wireshark is ready.
+            </div>
+            <div class="site-heading">
+               <h2>Get notified</h2>
+            </div>
+         </div>
+     </div>
+     <div class="row">
+        <div class="col-lg-12">
+          <p class="text-center">Want to know when Wireshark launches more broadly and is available to the general public?</p>
+          <p>&nbsp;</p>
+          <div class="subscribe-box">
+            <form action="https://fiers.jmathai.com/wireshark/notify" method="post">
+               <input class="form-control" name="email" type="email" placeholder="Enter your email address" required>
+               <i class="fa fa-envelope"></i>
+               <button class="pelum-btn" type="submit" data-lta-event="notify-submit">Notify me <span></span></button>
+            </form>     
+          </div>
+         </div>
+     </div>
+   </div>
+</section>
+<script>
+  if(window.location.search == '?notified') {
+    document.getElementById('notify-confirmation').classList.remove('d-none');
+  }
+</script>
