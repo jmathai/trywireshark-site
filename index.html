@@ -25,12 +25,8 @@ layout: default
                  <div class="col-12">
                     <div id="home-cta-parent" class="welcome-text">
                       <h2><span>Run wires.</span> <span>Skip drywall repair.</span></h2>
-                      <div id="home-btn-notify" class="d-none">
-                        <a href="/notify" class="custom-btn">Join the Waitlist <i class="fa-solid fa-arrow-right"></i></a>
-                      </div>
-                      <div id="home-btn-shop" class="d-none">
-                        <a href="/shop" class="custom-btn">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
-                      </div>
+                      <a id="home-btn-notify" href="/notify" class="custom-btn d-none" data-lta-event="home-button-notify">Join the Waitlist <i class="fa-solid fa-arrow-right"></i></a>
+                      <a id="home-btn-shop" href="/shop" class="custom-btn d-none" data-lta-event="home-button-shop">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                  </div>
               </div>
@@ -42,15 +38,12 @@ layout: default
                // randomly select which button to display
                if(Math.random() >= 0.5) { // notify
                  el = document.getElementById('home-btn-notify');
-                 ev = 'home-button-notify';
-                 abName = 'notify';
+                 abName = 'home-ab-notify';
                } else { // shop
                  el = document.getElementById('home-btn-shop');
-                 ev = 'home-button-shop';
-                 abName = 'shop';
+                 abName = 'home-ab-shop';
                }
                el.classList.remove('d-none');
-               el.querySelector('a.custom-btn').setAttribute('data-lta-event', ev);
                parentEl.setAttribute('data-lta-event', abName);
                parentEl.setAttribute('data-lta-event-fire', 'now');
              })();
