@@ -126,7 +126,8 @@ h6 {
 a, a:focus, a:hover {
 	/*-webkit-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;*/
-	color: #6b739c;
+	/*color: #6b739c;*/
+  color: #4777f4;
   cursor: pointer !important;
 }
 
@@ -1419,7 +1420,7 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .pelum-subscribe-area {
 	padding: 100px 0;
-	background: #F8F8FF url(../img/map.png) no-repeat scroll center center/cover;
+	/*background: #F8F8FF url(../img/map.png) no-repeat scroll center center/cover;*/
 }
 
 .subscribe-box form {
